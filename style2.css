@@ -1,0 +1,66 @@
+@font-face {
+    font-family: nova fonte;
+    src: url('/src/img/Autography.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    font-family: nova fonte;
+    text-align: center; /* Centraliza os títulos */
+    margin-top: 100px; /* Afastamento do topo */
+    font-size: 5em; /* Tamanho da fonte dos títulos */
+}
+
+p{
+    font-family: nova fonte;
+    font-size: 100%;
+}
+.container {
+    display: flex; /* Utiliza flexbox para criar colunas */
+    justify-content: space-between; /* Espaço entre as colunas */
+    width: 80%; /* Largura total da área de leitura */
+    margin: auto; /* Centraliza a container */
+}
+
+.coluna {
+    width: 45%; /* Define a largura de cada coluna */
+}
+
+.esquerda {
+    text-align: left; /* Alinha texto à esquerda */
+    font-size: 50px;
+}
+
+.direita {
+    font-size: 50px;
+    text-align: right; /* Alinha texto à direita */
+
+}
+
+body {
+    
+    background-image: url('/src/img/imagem1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#botaoVoltar {
+    position: absolute; /* Permite posicionamento absoluto */
+    top: 80px; /* Distância do topo */
+    left: 100px; /* Distância da esquerda */
+    background-color: rgba(255, 255, 255, 0.5); /* Verde com 50% de opacidade */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Aumenta o arredondamento das bordas */
+    padding: 20px 40px; /* Aumenta o espaçamento interno do botão */
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botaoVoltar:hover {
+    background-color: rgba(8, 27, 8, 0.8); /* Aumenta a opacidade ao passar o mouse */
+}
