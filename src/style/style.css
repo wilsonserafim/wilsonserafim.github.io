@@ -1,6 +1,6 @@
 @font-face {
     font-family: nova fonte;
-    src: url('/src/img/Autography.otf');
+    src: url('../fonts/Autography.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,7 +40,7 @@ p{
 
 body {
     
-    background-image: url('/src/img/imagem1.jpg');
+    background-image: url('../img/imagem1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
